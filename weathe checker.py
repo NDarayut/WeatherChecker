@@ -1,8 +1,8 @@
 import os
 import requests
 
-#api_key = "fb61880be0dfdfdba64215274e5d3398"
-api_key = os.environ['key']
+api_key = "fb61880be0dfdfdba64215274e5d3398"
+#api_key = os.environ['key'] #(replit env file)
 
 city_name = input("Enter city name here: ")
 units = "metric"
