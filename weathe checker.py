@@ -23,7 +23,6 @@ def time():
   api_time = f"https://www.timeapi.io/api/Time/current/zone?timeZone={continent}/{city}"
   time_data = requests.get(api_time)
   r = time_data.json()
-  #print(r)
   time = r["time"]
   print(f"Time: {time}")
 
