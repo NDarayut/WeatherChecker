@@ -2,7 +2,7 @@ import os
 import requests
 
 #api_key = "____________________" #You can get your own key at OpenWeather
-api_key = os.environ['key'] #Replit system environment variables(secret key only you can access
+api_key = os.environ['key'] #Replit system environment variables(secret key only you can access)
 continent = input("Enter continent: ")
 city_name = input("Enter city name here: ")
 
